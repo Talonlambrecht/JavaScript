@@ -1,0 +1,12 @@
+//The constant kelvin is the temperature of today
+const kelvin = 293;
+//Celius is kevlvin minus 273
+const celsius = kelvin - 273;
+//convert celsius to fahrenheit
+let fahrenheit = celsius * (9/5) +32;
+//Round down to full number
+fahrenheit = Math.floor(fahrenheit);
+//print fahrenheit
+console.log (`The temperature is ${fahrenheit} degrees Fahrenheit.`)
+//print celsius (just for fun)
+console.log (`The temperature is ${celsius} degrees celsius`)
